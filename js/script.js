@@ -39,7 +39,6 @@ button.onclick = () => {
             printPokeImage(data.sprites.other.home.front_default);
             printPokeFeatures(data);
             printPokeStats(data);
-            printPokeMoves(data);
         }
     });
 }
