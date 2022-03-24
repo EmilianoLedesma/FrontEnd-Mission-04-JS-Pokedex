@@ -57,8 +57,8 @@ const printPokeFeatures = (data) => {
     }
 
     pokeId.innerText = data.id;
-    pokeHeight.innerText = data.height;
-    pokeWeight.innerText = data.weight;
+    pokeHeight.innerText = data.height / 10;
+    pokeWeight.innerText = data.weight / 10;
 }
 
 // Imprimir las estadísticas del pokemon
