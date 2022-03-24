@@ -459,7 +459,7 @@ div#midCircle {
     }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 360px) {
     .main {
         padding-left: 35px;
         padding-right: 35px;
@@ -468,13 +468,13 @@ div#midCircle {
         flex-direction: column;
     }
     .gameboy {
-        width: 100%;
+        width: 105%;
         margin-right: auto;
         margin-left: auto;
     }
     .pokemon {
         margin-top: 1px;
-        padding-left: 0px;
+        padding-left: auto;
         width: 100%;
         padding: 35px;
     }
@@ -490,7 +490,7 @@ div#midCircle {
     div#cross {
         width: 30;
         height: 30;
-        margin-left: 210px;
+        margin-left: 180px;
         margin-top: 410px;
         position: absolute;
     }
@@ -498,7 +498,7 @@ div#midCircle {
         height: 80px;
         width: 80px;
         background-color: #000;
-        margin-left: 5px;
+        margin-left: -15px;
         margin-top: 420px;
         position: absolute;
         border-radius: 100px;
