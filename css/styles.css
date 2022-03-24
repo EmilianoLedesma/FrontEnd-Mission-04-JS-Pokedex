@@ -167,9 +167,9 @@ div#bigbluebutton {
 div#cross {
     width: 90px;
     height: 90px;
-    position: absolute;
-    margin-top: 410px;
     margin-left: 400px;
+    margin-top: 410px;
+    position: absolute;
 }
 
 div#topcross {
@@ -388,7 +388,7 @@ div#midCircle {
     display: none;
     flex-direction: column;
     width: 500px;
-    padding: 50px;
+    padding: 40px;
     background-color: var(--light-gray);
     border-radius: 50px 50px 50px 50px;
 }
@@ -410,7 +410,8 @@ div#midCircle {
 }
 
 .pokemon__type {
-    margin-left: 200px;
+    display: block;
+    margin-left: 50px;
     padding: 5px 10px;
     font-size: 18px;
     font-weight: 400;
@@ -435,4 +436,31 @@ div#midCircle {
 
 .stats__data {
     margin-bottom: 7px;
+}
+
+@media (max-width: 1030px) {
+    .main {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    .search-pokemon {
+        flex-direction: column;
+    }
+    .gameboy {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .pokemon {
+        margin-top: 80px;
+        width: 100%;
+        padding: 35px;
+    }
+    div#cross {
+        width: 90px;
+        height: 90px;
+        margin-left: 800px;
+        margin-top: 410px;
+        position: absolute;
+    }
 }
