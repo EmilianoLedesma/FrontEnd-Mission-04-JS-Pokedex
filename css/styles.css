@@ -436,23 +436,3 @@ div#midCircle {
 .stats__data {
     margin-bottom: 7px;
 }
-
-@media (max-width: 980px) {
-    .main {
-        padding-left: 35px;
-        padding-right: 35px;
-    }
-    .search-pokemon {
-        flex-direction: column;
-    }
-    .gameboy {
-        width: 100%;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    .pokemon {
-        margin-top: 80px;
-        width: 100%;
-        padding: 35px;
-    }
-}
