@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Pokédex</title>
+</head>
+
+<body class="body">
+
+    <main class="main">
+        <section class="search-pokemon">
+            <div class="gameboy">
+                <div id="buttonGlass">
+                    <div id="reflect"></div>
+                </div>
+                <div id="miniButtonGlass1"></div>
+                <div id="miniButtonGlass2"></div>
+                <div id="miniButtonGlass3"></div>
+                <div id="bigbluebutton"></div>
+                <div id="cross">
+                    <div id="leftcross">
+                        <div id="leftT"></div>
+                    </div>
+                    <div id="topcross">
+                        <div id="upT"></div>
+                    </div>
+                    <div id="rightcross">
+                        <div id="rightT"></div>
+                    </div>
+                    <div id="midcross">
+                        <div id="midCircle"></div>
+                    </div>
+                    <div id="botcross">
+                        <div id="downT"></div>
+                    </div>
+                </div>
+                <div class="gameboy__screen">
+                    <img class="gameboy__img" src="img/pokemon-logo-png-1432.png" alt="Pokemon" id="img">
+                </div>
+
+                <div class="gameboy__body">
+                    <input type="text" class="gameboy__input" placeholder="Ingresa el nombre o ID del Pokémon" id="input">
+                    <button type="button" class="button button--gameboy" id="button">Buscar Pokémon</button>
+                </div>
+            </div>
+
+            <div class="pokemon" id="pokemon-data">
+                <div class="pokemon__title">
+                    <h2 class="pokemon__name" id="poke-name">Pikachu</h2>
+
+                    <div id="poke-type">
+                    </div>
+                </div>
+
+                <h3>Características</h3>
+
+                <div class="stats">
+                    <div class="stats__item">
+                        <p class="stats__data" id="poke-id">1</p>
+                        <h4>ID</h4>
+                    </div>
+
+                    <div class="stats__item">
+                        <p class="stats__data" id="poke-height">30</p>
+                        <h4>Altura</h4>
+                    </div>
+
+                    <div class="stats__item">
+                        <p class="stats__data" id="poke-weight">30</p>
+                        <h4>Peso</h4>
+                    </div>
+                </div>
+
+                <h3>Estadísticas</h3>
+
+                <div class="stats">
+                    <div class="stats__item">
+                        <p class="stats__data" id="hp">1</p>
+                        <h4>HP</h4>
+                    </div>
+
+                    <div class="stats__item">
+                        <p class="stats__data" id="atk">30</p>
+                        <h4>ATK</h4>
+                    </div>
+
+                    <div class="stats__item">
+                        <p class="stats__data" id="def">30</p>
+                        <h4>DEF</h4>
+                    </div>
+
+                    <div class="stats__item">
+                        <p class="stats__data" id="satk">30</p>
+                        <h4>SATK</h4>
+                    </div>
+
+                    <div class="stats__item">
+                        <p class="stats__data" id="sdef">30</p>
+                        <h4>SDEF</h4>
+                    </div>
+
+                    <div class="stats__item">
+                        <p class="stats__data" id="spd">30</p>
+                        <h4>SPD</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
